@@ -1,0 +1,11 @@
+{
+  "name": "Sample App",
+  "dependencies": {
+    "sanitize-css": "~1.1.0",
+    "extend-core": "https://github.com/3Pillar-ATG/extend-core.git",
+    "base-grid": "https://github.com/3Pillar-ATG/extend-module-base-grid.git",
+    "base-spacer": "https://github.com/3Pillar-ATG/extend-module-base-spacer.git",
+    "fragment-button": "https://github.com/3Pillar-ATG/extend-module-fragment-button.git",
+    "fragment-input": "https://github.com/3Pillar-ATG/extend-module-fragment-input.git"
+  }
+}

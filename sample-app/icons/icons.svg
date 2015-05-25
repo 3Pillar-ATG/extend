@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+	<symbol id="sign-in" viewBox="0 0 20 20">
+		<title>Sing In</title>
+		<path d="M7.5 10H1.25V7.5H7.5V5l3.75 3.75L7.5 12.5zM20 0v16.25L12.5 20v-3.75H5v-5h1.25V15h6.25V3.75l5-2.5H6.25v5H5V0z"/>
+	</symbol>
+
+	<symbol id="arrow-right" viewBox="0 0 20 20">
+		<title>Arrow Right</title>
+		<path d="M.8 10c0 5.08 4.12 9.2 9.2 9.2s9.2-4.12 9.2-9.2c0-5.08-4.12-9.2-9.2-9.2S.8 4.92.8 10zm16.4 0c0 3.976-3.224 7.2-7.2 7.2S2.8 13.977 2.8 10c0-3.977 3.223-7.2 7.2-7.2s7.2 3.223 7.2 7.2zM6.15 8.2v3.6h4.09v2.25L14.05 10l-3.81-4.05V8.2H6.15z"/>
+	</symbol>
+
+</svg>

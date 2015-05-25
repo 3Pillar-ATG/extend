@@ -1,0 +1,17 @@
+//==========================================================================
+//   Colors
+//==========================================================================
+
+//## Gray and brand colors for use across the application.
+
+$gray-darker:   #7f8c8d !default;
+$gray-dark:     #95a5a6 !default;
+$gray-light:    #bdc3c7!default;
+$gray-lighter:  #eee !default;
+
+$white:         #fff !default;
+// Do not use dead pixel #000 for black use a dark shade
+$black:         #222 !default;
+
+$brand-success: #5cb85c !default;
+$brand-info:    #428bca !default;

@@ -1,0 +1,44 @@
+//==========================================================================
+//   Colors Test
+//==========================================================================
+//Testing
+
+.color {
+
+  &.visual {
+    display: inline-block;
+    width: 1px;
+  }
+
+  &.gray-darker {
+    background-color: $gray-darker;
+  }
+
+  &.gray-dark {
+    background-color: $gray-dark;
+  }
+
+  &.gray-light {
+    background-color: $gray-light;
+  }
+
+  &.gray-lighter {
+    background-color: $gray-lighter;
+  }
+
+  &.white {
+    background-color: $white;
+  }
+
+  &.black {
+    background-color: $black;
+  }
+
+  &.brand-success {
+    background-color: $brand-success;
+  }
+
+  &.brand-info {
+    background-color: $brand-info;
+  }
+}

@@ -1,0 +1,26 @@
+//
+// Input
+// --------------------------------------------------
+
+@import 'fragment-input/input';
+
+input {
+
+  @extend %fragment-input;
+
+  &.primary {
+    @include extend-input-style($white, $black, $gray-light, $brand-info, $gray-darker, $base-border-radius);
+  }
+
+  &.small {
+    @include extend-input-size(-1, 12px);
+  }
+
+  &.medium {
+    @include extend-input-size(-1, 14px);
+  }
+
+  &.large {
+    @include extend-input-size(0, 18px);
+  }
+}

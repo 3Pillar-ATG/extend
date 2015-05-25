@@ -1,0 +1,37 @@
+//
+// Header
+// --------------------------------------------------
+
+header {
+
+  background-color: $black;
+
+  .container {
+    align-items: center;
+  }
+
+  nav {
+
+    .brand {
+      @include font-size(18px);
+      color: $white;
+      opacity: .6;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 1;
+        transition: opacity .3s;
+      }
+    }
+	}
+
+  form {
+    display: flex;
+    justify-content: flex-end;
+
+    input {
+      margin-right: $base-space;
+    }
+
+  }
+}

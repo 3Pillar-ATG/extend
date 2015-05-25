@@ -1,0 +1,52 @@
+//
+// Buttons
+// --------------------------------------------------
+
+@import 'fragment-button/button';
+
+button {
+
+  @extend %fragment-button;
+
+  &.primary {
+    @include extend-button-style($brand-info, $white, $base-border-radius);
+    .icon {
+      fill: $white;
+    }
+  }
+
+  &.success {
+    @include extend-button-style($brand-success, $white, $base-border-radius);
+    .icon {
+      fill: $white;
+    }
+  }
+
+  &.plain {
+    @include extend-button-style($white, $black, $base-border-radius, $gray-dark);
+    .icon {
+      fill: $black;
+    }
+  }
+
+  &.small {
+    @include extend-button-size(-1, 12px);
+    .icon {
+      @include vr-box-size(12px);
+    }
+  }
+
+  &.medium {
+    @include extend-button-size(-1, 14px);
+    .icon {
+      @include vr-box-size(14px);
+    }
+  }
+
+  &.large {
+    @include extend-button-size(0, 18px);
+    .icon {
+      @include vr-box-size(18px);
+    }
+  }
+}

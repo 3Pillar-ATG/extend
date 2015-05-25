@@ -1,0 +1,18 @@
+//
+// Hero
+// --------------------------------------------------
+
+.hero {
+
+  background: $gray-lighter;
+
+  h1 {
+    @include font-size(63px);
+  }
+
+  p {
+    @include font-size(21px);
+    margin-bottom: ms(-1);
+  }
+
+}

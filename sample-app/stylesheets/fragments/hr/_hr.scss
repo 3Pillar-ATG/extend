@@ -1,0 +1,12 @@
+//
+// <hr>
+// --------------------------------------------------
+
+$hr-size: 1px;
+
+hr {
+  border: 0;
+  border-top: $hr-size solid $gray-lighter;
+  margin-bottom: ms(0) * $vr-base-line-height;
+  margin-top: ms(0) * $vr-base-line-height - $hr-size;
+}

@@ -1,0 +1,19 @@
+//
+// Container
+// --------------------------------------------------
+
+.container {
+
+  margin: 0 auto;
+
+  @media (min-width: $screen-small-min) {
+    width: $screen-small-min - (ms(0) * 2);
+  }
+  @media (min-width: $screen-medium-min) {
+    width: $screen-medium-min - (ms(0) * 2);
+  }
+  @media (min-width: $screen-large-min) {
+    width: $screen-large-min - (ms(0) * 2);
+  }
+
+}

@@ -1,0 +1,22 @@
+//==========================================================================
+// Variables
+//==========================================================================
+
+// VR
+
+$vr-ms-ratio: $golden !global;
+$vr-base-font-size: 14px !global;
+$vr-base-size: 20px !global;
+$vr-base-line-height: ($vr-base-size/$vr-base-font-size) !global;
+
+
+//APPLICATION
+
+$base-font-family: 'Roboto', sans-serif;
+
+$base-border-radius: 2px;
+$base-space: ms(-3);
+
+$screen-small-min: 768px;
+$screen-medium-min: 992px;
+$screen-large-min: 1200px;
