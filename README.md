@@ -82,6 +82,9 @@ The system works like a pyramid structure, top of the pyramid being base and bot
 
 - [Examples](https://github.com/ornament-design) are written in sass and compilled using libsass for its speed and ease of integration.
 
+### Tools
+Extend works well with [MDL](http://www.getmdl.io/)
+
 ### Author
 
 **Adi Chikara**
