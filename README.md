@@ -97,3 +97,9 @@ Extend works well with [MDL](http://www.getmdl.io/)
 * [Responsive Resources](http://bradfrost.github.io/this-is-responsive/resources.html)
 * [BEM Methodology](http://bem.info/method/)
 * [Smacss](http://smacss.com/)
+
+### About this project
+
+![3Pillar Global] (http://www.3pillarglobal.com/wp-content/themes/base/library/images/logo_3pg.png)
+
+**Extend** is developed and maintained by [3Pillar Global](http://www.3pillarglobal.com/).
