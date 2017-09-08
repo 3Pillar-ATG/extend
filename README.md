@@ -1,7 +1,7 @@
 WorkFlow
 =======
 
-Design is used as a identity for a product, thus indivudality is very important. This documnet explains how to follow a component based modular approach for your project. It also helps define a vocabulary for the team.
+Design is used as an identity for a product, thus individuality is very important. This document explains how to follow a component based modular approach for your project. It also helps define a vocabulary for the team.
 
 ### Architecture
     Base | Theme
@@ -25,7 +25,7 @@ Theme contains the top most coat of design for your application.
 * Colors
 
 #### Fragments
-These are re-usable elements at there most basic atomic unit but sufficiently complete to be used independently or with components.
+These are re-usable elements at the most basic atomic unit but sufficiently complete to be used independently or with components.
 
 * Buttons
 * Input Elements
@@ -33,7 +33,7 @@ These are re-usable elements at there most basic atomic unit but sufficiently co
 * Image
 
 #### Components
-Componets are modular re-usable parts of our design. Componets can often extend themselves and use one or more fragments.
+Components are modular re-usable parts of our design. Components can often extend themselves and use one or more fragments.
 
     Component X
         |
@@ -61,7 +61,7 @@ Layouts are sections of your page which hold components together.
 * Masthead
 
 ### States
-It is import to follow common semantics for states as this would be a interface for your javascript to interact with the code.
+It is import to follow common semantics for states as this would be an interface for your javascript to interact with the code.
 
 * Hidden
 * Expanded
@@ -72,7 +72,7 @@ It is import to follow common semantics for states as this would be a interface 
 - Use a modular scale for your typography.
 
 ### Ecosystem
-The system works like a pyramid structure, top of the pyramid being base and bottom being views. Base is unlikely to change a lot and requires thorough impact assement while views are created most often with least impact to project.
+The system works like a pyramid structure, top of the pyramid being base and bottom being views. Base is unlikely to change a lot and requires thorough impact assessment while views are created most often with least impact to project.
 
 ### Testing
 
@@ -80,7 +80,7 @@ The system works like a pyramid structure, top of the pyramid being base and bot
 
 ### Preprocessor
 
-- [Examples](https://github.com/ornament-design) are written in sass and compilled using libsass for its speed and ease of integration.
+- [Examples](https://github.com/ornament-design) are written in sass and compiled using libsass for its speed and ease of integration.
 
 ### Tools
 Extend works well with [MDL](http://www.getmdl.io/)
