@@ -61,7 +61,7 @@ Layouts are sections of your page which hold components together.
 * Masthead
 
 ### States
-It is import to follow common semantics for states as this would be an interface for your javascript to interact with the code.
+It is important to follow common semantics for states as this would be an interface for your javascript to interact with the code.
 
 * Hidden
 * Expanded
